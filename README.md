@@ -117,5 +117,19 @@ A collection of blocklists downloaded from GitHub, converted into a format compa
 | https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt                                                             |
 | https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt                                                            |
 | https://raw.githubusercontent.com/m-akami/InternetBlocklists/main/apple-doh.txt                                                 |
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/ultimate.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/fake.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/popupads.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/doh-vpn-proxy-bypass.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/nosafesearch.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/dyndns.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/hoster.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/anti.piracy.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/gambling.txt
+
+
+
+other
 
 https://raw.githubusercontent.com/m-akami/InternetBlocklists/main/test.txt
