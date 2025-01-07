@@ -60,6 +60,17 @@ A collection of blocklists downloaded from GitHub, converted into a format compa
 | Privacy - Telemetry            | https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt                                                            |
 | Security - DoH                 | https://raw.githubusercontent.com/m-akami/InternetBlocklists/main/apple-doh.txt                                                 |
 | Social Media - Snapchat        | https://raw.githubusercontent.com/m-akami/InternetBlocklists/main/snapchat.txt                                                  |
+| Protection - General           | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/ultimate.txt
+| Security - Scams               | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/fake.txt
+| Privacy - Advertisements       | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/popupads.txt
+| Security - Threat Intelligence | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.txt
+| Security - DoH                 | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/doh-vpn-proxy-bypass.txt
+| Safety - Unfiltered Search     | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/nosafesearch.txt
+| Security - Malware             | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/dyndns.txt
+| Security - Malware             | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/hoster.txt
+| Security - Piracy              | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/anti.piracy.txt
+| Safety - Gambling              | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/gambling.txt
+
 
 | List                                                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------- |
