@@ -1,0 +1,140 @@
+This guide will walk through the replacement of a Network Interface Card (NIC) in an OPNsense environment.
+
+<aside>
+💡
+
+To change an interface, you must ensure that the OPNsense environment has not been booted since the card has been removed - as OPNsense will unassign all bridges and unrelated interfaces. If it has, restore from a previous snapshot where the old card was installed before following the steps below.
+
+</aside>
+
+### Proxmox VE Configuration
+
+These steps can be ignored if Proxmox VE is not being used, and OPNsense is running on bare metal.
+
+- Navigate to `Datacenter > "Hypervisor Name" > "VM Name" > Snapshots`
+- Select the **most recent snapshot where the old NIC was present**
+- Select `Rollback` and confirm the changes
+- Check the task status in the `Tasks` view shows as `OK`
+- Navigate to `Datacenter > "Hypervisor Name" > "VM Name" > Hardware`
+- Select `PCI Device (hostpciX) XXXX:XX:XX` where the PCI ID corresponds to the **old card** that was removed from the hypervisor
+- Select `Edit`
+- Under `Raw Device`, go to the `Device` dropdown and select the **new NIC** that was installed
+
+<aside>
+⚠️
+
+If there are multiple instances of the same NIC appearing (as you probably have a multi-port NIC that will usually have multiple controllers present), select the **first PCI ID** that appears in the list (e.g. select PCI ID `0000:06:00.0` instead of another PCI ID presenting as `0000:06:00.1` - as PVE passes the entire IOMMU group through by default, and including all devices in the same group can lead to duplicate passthrough errors.
+
+</aside>
+
+- Ensure `All Functions` is checked
+- Ensure `ROM-Bar` is checked (under `Advanced`)
+- Select `OK`
+
+### Preliminary Steps
+
+- Ensure the power is switched off to the server
+- Connect a keyboard and mouse or use VNC, and power on the server
+- Wait for the splash screen to appear, then choose `(2) Boot Single User` by selecting `2` on the keyboard
+
+This stage varies depending on what filesystem OPNsense was installed under, there are two options, either `UFS` or `ZFS`.
+
+**UFS File System**
+
+Enter the following command in the shell to enable root modifications:
+
+```bash
+/sbin/mount -o rw /
+```
+
+**ZFS File System**
+
+Enter the following command in the shell to enable root modifications:
+
+```bash
+/sbin/mount -u /
+/sbin/zfs mount -a
+```
+
+Now, the root filesystem can be modified.
+
+### Configuration Modification
+
+<aside>
+⚠️
+
+Ensure you **do not** make any typos past this stage. The `config.xml` file that OPNsense operates off has **no syntax checking** by default - accidental changes could lead to a failure to boot and in worst cases require a system reinstall.
+
+</aside>
+
+In your shell, if everything has been completed correctly, you should see:
+
+```bash
+root@:/ #
+```
+
+This indicates that **OPNsense** is ready to receive shell commands.
+
+Enter the following commands into the shell, pressing Enter after every line:
+
+```bash
+cd conf
+cd backup
+ls
+```
+
+You should see a long list of files named `config-XXXXXXXXXX.XXXX.xml` where the large random number is the date and time the `config.xml` backup was taken by OPNsense, represented as a UNIX epoch.
+
+- Make a note of the `config-XXXXXXXXXX.XXXX.xml` entry that has the **second** **largest number** (most recent backup - typically the file in the right column and the second to last item from the bottom row)
+
+Enter the following command into the shell, replacing `config-XXXXXXXXXX.XXXX.xml` with the name of the file you just noted down:
+
+```bash
+cp config-XXXXXXXXXX.XXXX.xml /conf/config.xml
+```
+
+Now, we can edit the `config.xml` file. Enter the following commands into the shell, pressing Enter after every line:
+
+```bash
+cd /conf
+vi config.xml
+```
+
+The raw `config.xml` file should open in `vi`. Ensure you have the name(s) of the **old interface** you removed from the host and the name(s) of the **new interface** you just installed. Enter the following command into `vi`, replacing `old` with the **old interface name** and `new` with the **new interface name,** pressing Enter at the end of the line.
+
+<aside>
+⚠️ Always press the `Esc` key before entering any commands in `vi` - this ensures that you are not in `Insert` mode.
+
+</aside>
+
+```bash
+:%s/old/new/gc
+```
+
+<aside>
+👉
+
+As an example, if you want all interfaces that were assigned to `igb0` to be assigned to `ix0` instead, the command would be `:%s/igb0/ix0/gc`.
+
+</aside>
+
+Select `y` to confirm the change, or `n` to reject it (if it’s something that should not be changed, like a `System Tuneable`), until `vi` stops prompting you. Repeat this process for any other interfaces you would like to swap.
+
+Once you have finished remapping all interfaces, make note of the driver name used to load the **old NIC** into OPNsense, and enter the following command into `vi`, replacing `old` with the **old driver name**, pressing Enter at the end of the line.
+
+```bash
+/old
+```
+
+<aside>
+👉 As an example, if your old interfaces were named `igb0`, `igb1`, then the driver used to load them would be `igb`. The command would be `/igb`
+
+</aside>
+
+If `vi` returns `Pattern not found`, then your `config.xml` has been written successfully to replace all missing interface assignments. You can now run the following command:
+
+```bash
+:wq
+```
+
+You can now shutdown the host, cycle all cables, wait 10 seconds, and turn it on again. Your OPNsense install should function like nothing has changed.
