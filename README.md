@@ -1,7 +1,3 @@
-# InternetBlocklists
-
-A collection of blocklists available across the internet for use in a DNSBL system for local category-based blocklisting, including restrict lists created by me to clean up social media apps (removing functionality such as infinite scroll feeds and stories). Please support the original maintainers of these lists as a thanks for helping to clean up the web.
-
 # Links
 
 | **Category** | **Repository** |
