@@ -9,3 +9,120 @@ https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
 https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/popupads.txt
+
+Privacy - Telemetry
+
+https://v.firebog.net/hosts/Easyprivacy.txt
+https://v.firebog.net/hosts/Prigent-Ads.txt
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts
+https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
+https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
+https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
+https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt
+
+Protection - General
+
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/ultimate.txt
+https://big.oisd.nl
+
+Safety - Drugs
+
+https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt
+
+Safety - Gambling
+
+https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/gambling.txt
+
+Safety - Inappropriate Content
+
+https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_top1m.list
+https://v.firebog.net/hosts/Prigent-Adult.txt
+https://blocklistproject.github.io/Lists/alt-version/porn-nl.txt
+https://nsfw.oisd.nl
+
+Safety - Unfiltered Search
+
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/nosafesearch.txt
+
+Security - Cryptocurrency
+
+https://v.firebog.net/hosts/Prigent-Crypto.txt
+https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt
+
+Security - DoH
+
+https://raw.githubusercontent.com/jameshas/Public-DoH-Lists/main/doh_static_known_domains.txt
+https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-domains_overall.txt
+https://raw.githubusercontent.com/m-akrami/InternetBlocklists/main/apple-doh.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/doh-vpn-proxy-bypass.txt
+
+Security - Fraud
+
+https://blocklistproject.github.io/Lists/alt-version/fraud-nl.txt
+
+Security - Malware
+
+https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
+https://v.firebog.net/hosts/RPiList-Malware.txt
+https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts
+https://v.firebog.net/hosts/Prigent-Malware.txt
+https://blocklistproject.github.io/Lists/alt-version/malware-nl.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/dyndns.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/hoster.txt
+
+Security - Phishing
+
+https://v.firebog.net/hosts/RPiList-Phishing.txt
+https://blocklistproject.github.io/Lists/alt-version/phishing-nl.txt
+
+Security - Piracy
+
+https://blocklistproject.github.io/Lists/alt-version/piracy-nl.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/anti.piracy.txt
+
+Security - Ransomware
+
+https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt
+
+Security - Redirects
+
+https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt
+
+Security - Scams
+
+https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/fake.txt
+
+Security - Spam
+
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
+https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt
+
+Security - Threat Intelligence
+
+https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
+https://v.firebog.net/hosts/static/w3kbl.txt
+https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt
+https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
+https://v.firebog.net/hosts/neohostsbasic.txt
+https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt
+https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.txt
+
+Security - Torrents
+
+https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt
+
+Social Media - Snapchat
+
+https://raw.githubusercontent.com/m-akrami/InternetBlocklists/main/snapchat.txt
+
+Social Media - TikTok
+
+https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt
