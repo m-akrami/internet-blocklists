@@ -75,7 +75,7 @@ https://raw.githubusercontent.com/jameshas/Public-DoH-Lists/main/doh_static_know
 https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-domains_overall.txt
 https://raw.githubusercontent.com/m-akrami/internet-blocklists/refs/heads/main/lists/dns/block/apple-doh.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/doh-vpn-proxy-bypass.txt
-https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/doh-vpn-proxy-bypass.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-vpn-proxy-bypass.txt
 
 Security - Fraud
 
