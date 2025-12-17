@@ -1,3 +1,5 @@
+# Educational domains approved for kid usage
+
 bbc.co.uk/bitesize
 cgpbooks.co.uk
 educake.co.uk
