@@ -73,7 +73,7 @@ Security - Obfuscation
 
 https://raw.githubusercontent.com/jameshas/Public-DoH-Lists/main/doh_static_known_domains.txt
 https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-domains_overall.txt
-https://raw.githubusercontent.com/m-akrami/InternetBlocklists/main/apple-doh.txt
+https://raw.githubusercontent.com/m-akrami/internet-blocklists/refs/heads/main/lists/dns/block/apple-doh.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/doh-vpn-proxy-bypass.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/doh-vpn-proxy-bypass.txt
 
@@ -150,10 +150,6 @@ Security - Torrents
 
 https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt
 
-Social Media - Snapchat
-
-https://raw.githubusercontent.com/m-akrami/InternetBlocklists/main/snapchat.txt
-
 Social Media - TikTok
 
 https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt
@@ -162,4 +158,10 @@ Social Media - General
 
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/social.txt
 
+Distractions - Snapchat
 
+https://raw.githubusercontent.com/m-akrami/internet-blocklists/refs/heads/main/lists/dns/restrict/snapchat.txt
+
+Distractions - Instagram
+
+https://raw.githubusercontent.com/m-akrami/internet-blocklists/refs/heads/main/lists/dns/restrict/instagram
