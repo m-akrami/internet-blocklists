@@ -9,6 +9,7 @@ https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
 https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/popupads.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/popupads.txt
 
 Privacy - Telemetry
 
@@ -22,11 +23,23 @@ https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
 https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
 https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.amazon.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.apple.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.huawei.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.winoffice.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.samsung.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.lgwebos.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.tiktok.extended.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.roku.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.vivo.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.oppo-realme.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.xiaomi.txt
 
 Protection - General
 
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/ultimate.txt
 https://big.oisd.nl
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/ultimate.txt
 
 Safety - Drugs
 
@@ -36,6 +49,7 @@ Safety - Gambling
 
 https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/gambling.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/gambling.txt
 
 Safety - Inappropriate Content
 
@@ -43,22 +57,25 @@ https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists
 https://v.firebog.net/hosts/Prigent-Adult.txt
 https://blocklistproject.github.io/Lists/alt-version/porn-nl.txt
 https://nsfw.oisd.nl
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/nsfw.txt
 
 Safety - Unfiltered Search
 
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/nosafesearch.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/nosafesearch.txt
 
 Security - Cryptocurrency
 
 https://v.firebog.net/hosts/Prigent-Crypto.txt
 https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt
 
-Security - DoH
+Security - Obfuscation
 
 https://raw.githubusercontent.com/jameshas/Public-DoH-Lists/main/doh_static_known_domains.txt
 https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-domains_overall.txt
 https://raw.githubusercontent.com/m-akrami/InternetBlocklists/main/apple-doh.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/doh-vpn-proxy-bypass.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/doh-vpn-proxy-bypass.txt
 
 Security - Fraud
 
@@ -73,6 +90,7 @@ https://v.firebog.net/hosts/Prigent-Malware.txt
 https://blocklistproject.github.io/Lists/alt-version/malware-nl.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/dyndns.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/hoster.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/hoster.txt
 
 Security - Phishing
 
@@ -83,6 +101,7 @@ Security - Piracy
 
 https://blocklistproject.github.io/Lists/alt-version/piracy-nl.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/anti.piracy.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/anti.piracy.txt
 
 Security - Ransomware
 
@@ -96,12 +115,15 @@ Security - Scams
 
 https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/fake.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/fake.txt
 
 Security - Spam
 
 https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
 https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
 https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/spam-tlds-rpz-aggressive.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/dyndns.txt
 
 Security - Threat Intelligence
 
@@ -114,6 +136,15 @@ https://v.firebog.net/hosts/neohostsbasic.txt
 https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt
 https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif.txt
+
+Security - New Domains
+
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/nrd7.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/nrd14-8.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/nrd21-15.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/nrd28-22.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/nrd35-29.txt
 
 Security - Torrents
 
@@ -126,3 +157,9 @@ https://raw.githubusercontent.com/m-akrami/InternetBlocklists/main/snapchat.txt
 Social Media - TikTok
 
 https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt
+
+Social Media - General
+
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/social.txt
+
+
