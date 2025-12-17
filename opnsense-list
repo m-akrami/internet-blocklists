@@ -38,7 +38,7 @@ https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.t
 Protection - General
 
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/ultimate.txt
-https://big.oisd.nl
+https://big.oisd.nl/domainswild
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/ultimate.txt
 
 Safety - Drugs
@@ -56,7 +56,7 @@ Safety - Inappropriate Content
 https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_top1m.list
 https://v.firebog.net/hosts/Prigent-Adult.txt
 https://blocklistproject.github.io/Lists/alt-version/porn-nl.txt
-https://nsfw.oisd.nl
+https://nsfw.oisd.nl/domainswild
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nsfw.txt
 
 Safety - Unfiltered Search
