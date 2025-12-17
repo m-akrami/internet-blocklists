@@ -137,9 +137,6 @@ https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt
 https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif.txt
-
-Security - New Domains
-
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/nrd7.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/nrd14-8.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/nrd21-15.txt
