@@ -1,11 +1,5 @@
-# This blocklist blocks Snapchat Traffic
-#
-# Date: 15 April 2020 13:11:00 (UTC)
-# Fetch the latest version of this file: https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/Snapchat/snapchatblocklist.txt
-# Project home page: https://github.com/d43m0nhLInt3r/socialblocklists
-# THIS IS NOT MINE! CREDIT TO d43m0nhLInt3r
-# ===============================================================
-
+# This blocklist restricts time-wasters on Snapchat, to reduce it to a simple messaging app. Functions like Spotlight and Stories are restricted, while basic messaging and sign-in are left untouched.
+# Credit to d43m0nhLInt3r on GitHub for most the categories and domains on this list.
 
 # Snapchat Chat
 # 0.0.0.0 chat-gateway-prod.chat.snapchat.com
