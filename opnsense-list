@@ -10,6 +10,7 @@ https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/popupads.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/popupads.txt
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Hosts/Ads
 
 Privacy - Telemetry
 
@@ -34,6 +35,9 @@ https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.roku.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.vivo.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.oppo-realme.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Hosts/Bloat
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Hosts/Microsoft
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Hosts/Tracking
 
 Protection - General
 
@@ -44,12 +48,14 @@ https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/ultimate.txt
 Safety - Drugs
 
 https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt
+https://blocklistproject.github.io/Lists/alt-version/vaping-nl.txt
 
 Safety - Gambling
 
 https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/gambling.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.txt
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Hosts/Gambling
 
 Safety - Inappropriate Content
 
@@ -58,24 +64,49 @@ https://v.firebog.net/hosts/Prigent-Adult.txt
 https://blocklistproject.github.io/Lists/alt-version/porn-nl.txt
 https://nsfw.oisd.nl/domainswild
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nsfw.txt
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Hosts/Adult
 
 Safety - Unfiltered Search
 
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/nosafesearch.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nosafesearch.txt
 
+Safety - Artificial Intelligence
+
+https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/refs/heads/main/noai_hosts.txt
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Hosts/Chat
+
+Safety - News
+
+https://raw.githubusercontent.com/m-akrami/internet-blocklists/refs/heads/main/lists/dns/block/safety-news
+
+Safety - Dating
+
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Hosts/Dating
+
+Safety - Violence
+
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Hosts/Shock
+
+Safety - General
+
+https://raw.githubusercontent.com/m-akrami/internet-blocklists/refs/heads/main/lists/dns/block/safety-general
+
 Security - Cryptocurrency
 
 https://v.firebog.net/hosts/Prigent-Crypto.txt
 https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Hosts/Cryptocurrency
 
-Security - Obfuscation
+Security - Evasion
 
 https://raw.githubusercontent.com/jameshas/Public-DoH-Lists/main/doh_static_known_domains.txt
 https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-domains_overall.txt
 https://raw.githubusercontent.com/m-akrami/internet-blocklists/refs/heads/main/lists/dns/block/apple-doh.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/doh-vpn-proxy-bypass.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-vpn-proxy-bypass.txt
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Hosts/DNS
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Hosts/Tunnels
 
 Security - Fraud
 
@@ -91,6 +122,8 @@ https://blocklistproject.github.io/Lists/alt-version/malware-nl.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/dyndns.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/hoster.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/hoster.txt
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Hosts/Malware
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Hosts/Risk
 
 Security - Phishing
 
@@ -111,12 +144,14 @@ Security - Redirects
 
 https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/urlshortener.txt
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Hosts/UrlShortener
 
 Security - Scams
 
 https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/fake.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/fake.txt
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Hosts/Scam
 
 Security - Spam
 
@@ -125,6 +160,7 @@ https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
 https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/dyndns.txt
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Hosts/Junk
 
 Security - Threat Intelligence
 
@@ -148,9 +184,29 @@ Security - Torrents
 
 https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt
 
+Security - Remote Access
+
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Hosts/Remote
+
+Security - Typosquatting
+
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Hosts/Typo
+
 Social Media - TikTok
 
 https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt
+
+Social Media - Twitter
+
+https://blocklistproject.github.io/Lists/alt-version/twitter-nl.txt
+
+Social Media - Meta
+
+https://blocklistproject.github.io/Lists/alt-version/facebook-nl.txt
+
+Social Media - WhatsApp
+
+https://blocklistproject.github.io/Lists/alt-version/whatsapp-nl.txt
 
 Social Media - General
 
